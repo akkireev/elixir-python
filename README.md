@@ -1,19 +1,23 @@
-# Elpy
-### Example of usage python from elixir with :erlport 
+# Elixir-Python
+
+### Usage python from elixir with :erlport 
 
 ---
 
 ## Installation
-### Download
-git clone 
-cd elpy
 
-### Install elixir
+### Download
+```console
+git clone https://github.com/akkireev/elixir-python.git
+cd elixir-python
+``` 
+
+### Install Elixir
 ```console
 mix deps.get
 ``` 
 
-### Install python and test
+### Install Python and test qrcode
 ```console
 cd priv/python
 virtualenv -p python3
